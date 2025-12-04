@@ -1,0 +1,108 @@
+/* Quick helpers */
+header { padding: 1rem; text-align: center; }
+main { padding: 1rem; }
+footer { text-align: center; padding: 1rem; font-size: 0.9rem; color: #0e0d0d; }
+body {
+    font-family: 'Georgia', serif; 
+    background-color: #e7d8c6; 
+    color: #131212;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.description {
+    font-family: 'Georgia', sans-serif; /* Simple, clean font for description */
+    color: black; 
+    display: block;
+    border-color: 2px solid #070707;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(218, 146, 13);
+}   
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: #070707; 
+    text-align: center;
+    border-bottom: 2px solid #080808; 
+    padding-bottom: 2px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    color: #070707; 
+    text-align: center;
+    padding-bottom: 1px;
+    margin-top: 10px;
+}
+.p2 li {
+    padding: 8px 15px;
+    border-left: 5px solid #E0B07F; /* Accent line for list items */
+    margin-bottom: 8px;
+    background-color: #FFF9F4;
+    transition: background-color 0.2s; /* Subtle transition */
+}
+
+.p2 li:hover {
+    background-color: #F0E6D8; 
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.recipe img {
+    max-width: 90%;
+    height: auto;
+    border-style: solid;
+    border-radius: 8px;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.details-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border: 2px dashed #661515;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #f5f2ed;
+}
+.details-grid p {
+    margin: 5px 10px;
+    font-size: 0.9em;
+    color: #111111;
+    flex-basis: 25%;
+    text-align: center;
+}
+.tips-notes-section {
+    font-family: 'Georgia', serif;
+    text-align: left;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #f5f2ed;
+    padding-bottom: 2px;
+    margin-top: 40px;
+}
+
+mark {
+    background-color: #023b0f; /* Light green background */
+    color: #eff8f1; /* Dark green text */
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+a {
+    color: #352da0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5C4033;
+}
